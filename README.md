@@ -67,7 +67,13 @@ This project was built as part of a **Software Engineering mini project coding c
 - Prevent duplicate tasks  
 - Customizable timer duration  
 - Drag & drop task reordering  
-- Better UI/UX design  
+- Better UI/UX design 
+
+---
+
+## 🌐 Live Demo
+
+👉 https://rayhannugroho.github.io/CodingCamp-6Apr26-rayhancahyoajinugroho/
 
 ---
 
