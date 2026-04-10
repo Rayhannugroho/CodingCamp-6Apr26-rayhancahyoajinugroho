@@ -45,7 +45,7 @@ function saveState() {
 
 // ── 4. Greeting ───────────────────────────────────────────────────────────────
 function formatTime(date) {
-  return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false });
+  return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
 }
 
 function formatDate(date) {
@@ -350,8 +350,8 @@ document.addEventListener('DOMContentLoaded', () => {
   linksRender();
   initNameEditing();
 
-  // Greeting interval (every 60s)
-  setInterval(greetingRender, 60000);
+  // Greeting interval (every 1s to show seconds)
+  setInterval(greetingRender, 1000);
 
   // Timer controls
   document.getElementById('timer-start').addEventListener('click', timerStart);
